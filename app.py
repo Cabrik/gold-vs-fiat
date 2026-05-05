@@ -59,6 +59,7 @@ COLORS = {
     "INR": "#FCD34D",
     "MXN": "#34D399",
     "ZAR": "#A78BFA",
+    "RUB": "#FF4444",
 }
 
 CURRENCY_NAMES = {
@@ -78,6 +79,7 @@ CURRENCY_NAMES = {
     "INR": "Ind. Rupie",
     "MXN": "Mexikan. Peso",
     "ZAR": "Südafrik. Rand",
+    "RUB": "Russ. Rubel",
 }
 
 st.markdown(f"""
@@ -194,6 +196,7 @@ CURRENCIES = {
     "INR": {"fred": "DEXINUS",          "yahoo": "USDINR=X", "orientation": "currency_per_usd"},
     "MXN": {"fred": "DEXMXUS",          "yahoo": "USDMXN=X", "orientation": "currency_per_usd"},
     "ZAR": {"fred": "DEXSFUS",          "yahoo": "USDZAR=X", "orientation": "currency_per_usd"},
+    "RUB": {"fred": "DEXRUUS",          "yahoo": "USDRUB=X", "orientation": "currency_per_usd"},
 }
 
 TIME_RANGE_LABELS = [
